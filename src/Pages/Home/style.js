@@ -5,7 +5,7 @@ export const Container = styled.section`
   display: grid;
   grid-template-columns: 400px 1fr;
 
-  @media (max-width: 800) {
+  @media (max-width: 800px) {
     grid-template-columns: 1fr;
   }
 `;
@@ -30,6 +30,10 @@ export const Stack = styled.p`
 export const Code = styled.div`
   font-size: 2.5rem;
   font-style: italic;
+
+  @media (max-width: 800px) {
+    font-size: 2rem;
+  }
 `;
 
 export const Description = styled.p`
