@@ -29,6 +29,7 @@ export const Mobile = styled.div`
   display: none;
   transition: 0.3s ease-in;
   cursor: pointer;
+  z-index: 100px;
 
   @media (max-width: 800px) {
     display: flex;

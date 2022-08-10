@@ -14,7 +14,7 @@ export const Home = () => {
               '<p>Welcome to my website!</p>', // Deletes 'One' and types 'Two'
             ]}
             wrapper="div"
-            cursor={true}
+            cursor={false}
             repeat={Infinity}
             style={{ fontSize: '1rem' }}
           />
