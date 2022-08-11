@@ -9,9 +9,9 @@ export const Home = () => {
         <C.Code>
           <TypeAnimation
             sequence={[
-              '<h1>Hello Word!</h1>',
+              '<h1> Hello Word! </h1>',
               2000, // Waits 1s
-              '<p>Welcome to my website!</p>', // Deletes 'One' and types 'Two'
+              '<p> Welcome to my website! </p>', // Deletes 'One' and types 'Two'
             ]}
             wrapper="div"
             cursor={false}
