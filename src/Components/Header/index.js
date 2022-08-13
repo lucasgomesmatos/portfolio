@@ -74,8 +74,9 @@ export const Menu = styled.ul`
     right: 0;
     padding-top: 40px;
     margin-top: 60px;
-    height: calc(100vh - 60px);
     width: 100%;
+    height: calc(100vh + 60px);
+    overflow: hidden;
     background: #292a2c;
   }
 `;

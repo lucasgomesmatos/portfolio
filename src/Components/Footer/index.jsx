@@ -4,8 +4,8 @@ export const Footer = () => {
   return (
     <C.Container>
       <p>
-        Todos os direitos reservados a Lucas Gomes Matos{' '}
-        {new Date().getFullYear()}
+        &copy; Todos os direitos reservados | feito com 💚 por Lucas Gomes Matos{' '}
+        {new Date().getFullYear()}.
       </p>
     </C.Container>
   );
