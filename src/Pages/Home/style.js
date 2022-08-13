@@ -3,7 +3,9 @@ import styled from 'styled-components';
 export const Container = styled.section`
   margin-top: 80px;
   display: grid;
+  gap: 20px;
   grid-template-columns: 400px 1fr;
+  height: calc(80vh - 60px);
 
   @media (max-width: 800px) {
     grid-template-columns: 1fr;
@@ -39,4 +41,20 @@ export const Code = styled.div`
 export const Description = styled.p`
   font-size: 0.75rem;
   color: #ddd;
+`;
+
+export const Chat = styled.div`
+  a {
+    color: #6ef3a5;
+    &::after {
+      content: '';
+      display: block;
+      width: 90px;
+      height: 1px;
+      background: #6ef3a5;
+    }
+    &:hover {
+      opacity: 0.9;
+    }
+  }
 `;

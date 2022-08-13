@@ -24,6 +24,9 @@ export const Home = () => {
         <C.Description>
           I design and code beautifully simple things, and I love what I do
         </C.Description>
+        <C.Chat>
+          <a href="mailto:lucasgomesmatodev@gmail.com">LET´S CHAT !</a>
+        </C.Chat>
       </C.Intro>
     </C.Container>
   );

@@ -22,6 +22,15 @@ export const GlobalStyle = createGlobalStyle`
     transition: .3s all;
   }
 
+  body::-webkit-scrollbar {
+  width: 2px;               
+  }
+
+  body::-webkit-scrollbar-thumb {
+  background-color: #6ef3a5;        
+  border: 3px solid transparent;  
+  }
+
 `;
 
 export const Container = styled.div`
