@@ -77,7 +77,10 @@ export const Menu = styled.ul`
     width: 100%;
     height: calc(100vh + 60px);
     overflow: hidden;
+    z-index: 100;
     background: #292a2c;
+    font-size: 1rem;
+    pointer-events: all;
   }
 `;
 
