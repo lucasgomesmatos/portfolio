@@ -1,14 +1,23 @@
 import styled from 'styled-components';
 
 export const Container = styled.section`
-  margin-top: 80px;
+  margin: 80px auto;
   display: grid;
   gap: 20px;
   grid-template-columns: 400px 1fr;
   height: calc(80vh - 60px);
+  position: relative;
 
   @media (max-width: 800px) {
-    grid-template-columns: 1fr;
+    gap: 40px;
+    grid-template-columns: 300px 300px;
+  }
+
+  @media (max-width: 680px) {
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 `;
 
@@ -16,6 +25,16 @@ export const Intro = styled.div`
   display: flex;
   flex-direction: column;
   gap: 20px;
+  z-index: -3;
+`;
+
+export const Photo = styled.div`
+  z-index: -3;
+  justify-self: flex-end;
+  img {
+    top: 0;
+    width: 400px;
+  }
 `;
 
 export const Stack = styled.p`

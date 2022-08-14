@@ -1,5 +1,7 @@
 import * as C from './style';
 import { TypeAnimation } from 'react-type-animation';
+import foto from '../../img/eu.png';
+// import linguagens from '../../img/linguagens.png';
 
 export const Home = () => {
   return (
@@ -10,8 +12,8 @@ export const Home = () => {
           <TypeAnimation
             sequence={[
               '<h1> Hello Word! </h1>',
-              2000, // Waits 1s
-              '<p> Welcome to my website! </p>', // Deletes 'One' and types 'Two'
+              2000,
+              '<p> Welcome to my website! </p>',
             ]}
             wrapper="div"
             cursor={false}
@@ -28,6 +30,9 @@ export const Home = () => {
           <a href="mailto:lucasgomesmatodev@gmail.com">LET´S CHAT !</a>
         </C.Chat>
       </C.Intro>
+      <C.Photo>
+        <img src={foto} alt="Lucas Gomes Matos" />
+      </C.Photo>
     </C.Container>
   );
 };

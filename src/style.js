@@ -31,6 +31,11 @@ export const GlobalStyle = createGlobalStyle`
   border: 3px solid transparent;  
   }
 
+  img {
+    display: block;
+    max-width: 100%;
+  }
+
 `;
 
 export const Container = styled.div`
